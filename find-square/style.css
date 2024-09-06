@@ -1,0 +1,28 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ height: 100dvh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ box-sizing: border-box;
+ font-family: 'Inter', system-ui;
+ background: rgb(2, 0, 36);
+ background: radial-gradient(
+  circle,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(25, 25, 50, 1) 14%,
+  rgba(121, 101, 9, 1) 35%,
+  rgba(78, 97, 140, 1) 58%,
+  rgba(63, 176, 54, 1) 79%,
+  rgba(0, 212, 255, 1) 100%
+ );
+}
+
+#canvas {
+ display: block;
+ background-color: #fff;
+}
